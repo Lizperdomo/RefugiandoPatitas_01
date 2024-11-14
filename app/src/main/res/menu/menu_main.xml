@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto">
+<item
+        android:id="@+id/navigation_adopcion"
+        android:title="Adopciones"
+        android:icon="@drawable/adoption" />
+    <item
+        android:id="@+id/navigation_reporte"
+        android:title="Reportes"
+        android:icon="@drawable/reporte" />
+    <item
+        android:id="@+id/navigation_salir"
+        android:title="Salir"
+        android:icon="@drawable/salir" />
+
+</menu>

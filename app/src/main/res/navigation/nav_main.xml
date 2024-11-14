@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/navigation_adopcion">
+
+    <fragment
+        android:id="@+id/navigation_adopcion"
+        android:name="com.example.refugiandopatitas.AdoptarPerritoFragment"
+        android:label="Adopciones"
+        tools:layout="@layout/activity_adoptar_perrito"
+        />
+
+    <fragment
+        android:id="@+id/navigation_reporte"
+        android:name="com.example.refugiandopatitas.ReporteFormFragment"
+        android:label="Reportes"
+        tools:layout="@layout/activity_reporte_formulario"
+        />
+    <fragment
+        android:id="@+id/navigation_salir"
+        android:name="com.example.refugiandopatitas.SalirFragment"
+        android:label="Reportes"
+        tools:layout="@layout/activity_salir"
+        />
+</navigation>
